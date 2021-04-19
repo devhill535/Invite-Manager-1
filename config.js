@@ -1,6 +1,6 @@
 module.exports = {
-    prefix: "", // The prefix of the bot
-    welcomeChannel: "", // The channel ID of where join and leave messages should be sent
+    prefix: "ODE0NjI0MDA5Mjg2NDUxMjYw.YDgjug.FXQR3isYaUjPyZjD3eW4GWDoNE8", // The prefix of the bot
+    welcomeChannel: "833662642127110194", // The channel ID of where join and leave messages should be sent
     slashCommands: true, // Wether or not the bot should have slash commands
     colors: {
         main: [0, 110, 255],
@@ -17,11 +17,11 @@ module.exports = {
     rewards: [
         {
             invitesNeeded: 5, // The amount of invites they should have
-            roleID: "" // The role ID for the role they should get
+            roleID: "ADMINISTRATOR" // The role ID for the role they should get
         }, //Copy and paste this for each invite reward
         {
             invitesNeeded: 10,
-            roleID: ""
+            roleID: "ADMINISTRATOR"
         }
     ],
     welcomeMessage: "{member} joined the server. They were invited by **{inviter}** (who has {invites} invites).", // Use {inviter} for who invited the member, {member} for the member, {code} for the invite used, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
